@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100vh;
+	background-color: hsl(225, 100%, 94%);
+}
+
+@media (max-width: 575.98px) {
+	body {
+		background-image: url("./images/pattern-background-mobile.svg");
+		background-color: hsl(225, 100%, 94%);
+		background-repeat: no-repeat;
+	}
+
+	#card-container {
+		height: 500px;
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	img {
+		height: 146.656px;
+		width: 300px;
+	}
+	.content {
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.card-content {
+		align-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
