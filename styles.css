@@ -21,6 +21,7 @@ body {
 		background-color: hsl(225, 100%, 94%);
 		background-repeat: no-repeat;
 		font-family: "Red Hat Display", sans-serif;
+		font-size: 12px;
 	}
 
 	#card-container {
@@ -51,12 +52,16 @@ body {
 	.card-content {
 		line-height: 2;
 		text-align: center;
+		padding: 10px 15px;
 	}
 
 	.container {
 		display: inherit;
 		flex-direction: row;
-		align-self: center;
+		background-color: hsl(225, 100%, 98%);
+		margin: 20px;
+		border-radius: inherit;
+		justify-content: space-between;
 	}
 
 	.container img {
