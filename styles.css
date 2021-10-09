@@ -88,6 +88,24 @@ body {
 
 	.column p:nth-of-type(2) {
 		color: hsl(224, 23%, 55%);
+		font-weight: 400;
+	}
+
+	button {
+		margin: 10px 20px;
+		padding: 15px;
+		border: none;
+		border-radius: 10px;
+	}
+
+	.content button:nth-of-type(1) {
+		color: white;
+		background-color: hsl(245, 75%, 52%);
+	}
+
+	.content button:nth-of-type(2) {
+		color: hsl(224, 23%, 55%);
+		background-color: white;
 	}
 }
 .attribution {
