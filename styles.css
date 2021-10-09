@@ -53,6 +53,13 @@ body {
 		line-height: 2;
 		text-align: center;
 		padding: 10px 15px;
+		color: hsl(224, 23%, 55%);
+	}
+
+	.card-button {
+		line-height: 1.5;
+		text-align: center;
+		padding: 10px 15px;
 	}
 
 	.container {
@@ -67,6 +74,20 @@ body {
 	.container img {
 		height: 32px;
 		width: 32px;
+		align-self: center;
+	}
+
+	.container a {
+		align-self: center;
+	}
+
+	.column p {
+		font-size: 13px;
+		padding-right: 40px;
+	}
+
+	.column p:nth-of-type(2) {
+		color: hsl(224, 23%, 55%);
 	}
 }
 .attribution {
