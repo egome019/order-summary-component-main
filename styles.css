@@ -14,14 +14,15 @@ body {
 	height: 100vh;
 	background-color: hsl(225, 100%, 94%);
 }
-
-@media (max-width: 575.98px) {
+@media screen () {
+}
+@media screen and (max-width: 575.98px) {
 	body {
 		background-image: url("./images/pattern-background-mobile.svg");
 		background-color: hsl(225, 100%, 94%);
 		background-repeat: no-repeat;
 		font-family: "Red Hat Display", sans-serif;
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	#card-container {
@@ -29,6 +30,7 @@ body {
 		width: 300px;
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	img {
@@ -54,6 +56,8 @@ body {
 		text-align: center;
 		padding: 10px 15px;
 		color: hsl(224, 23%, 55%);
+		margin: 0px 20px;
+		font-size: 15px;
 	}
 
 	.card-button {
@@ -79,6 +83,8 @@ body {
 
 	.container a {
 		align-self: center;
+		font-size: 12px;
+		font-weight: 700;
 	}
 
 	.column p {
@@ -96,11 +102,14 @@ body {
 		padding: 15px;
 		border: none;
 		border-radius: 10px;
+		font-weight: 600;
+		font-size: inherit;
 	}
 
 	.content button:nth-of-type(1) {
 		color: white;
 		background-color: hsl(245, 75%, 52%);
+		box-shadow: hsl(225, 100%, 94%) 0px 15px 10px;
 	}
 
 	.content button:nth-of-type(2) {
