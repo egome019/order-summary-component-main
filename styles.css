@@ -14,6 +14,19 @@ body {
 	background-color: hsl(225, 100%, 94%);
 }
 
+.container a:hover {
+	color: hsl(245, 59%, 73%, 1);
+	text-decoration: solid;
+}
+
+.content button:nth-of-type(1):hover {
+	background-color: hsl(245, 83%, 68%, 1);
+}
+
+.content button:nth-of-type(2) a:hover {
+	color: hsl(223, 47%, 23%);
+}
+
 @media screen and (max-width: 1450.98px) {
 	body {
 		background-image: url("./images/pattern-background-desktop.svg");
@@ -104,14 +117,22 @@ body {
 		font-size: inherit;
 	}
 
-	.content button:nth-of-type(1) {
+	button:nth-of-type(1) a {
+		text-decoration: solid;
 		color: white;
+	}
+
+	button:nth-of-type(2) a {
+		text-decoration: solid;
+		color: hsl(224, 23%, 55%);
+	}
+
+	.content button:nth-of-type(1) {
 		background-color: hsl(245, 75%, 52%);
 		box-shadow: hsl(225, 100%, 94%) 0px 15px 10px;
 	}
 
 	.content button:nth-of-type(2) {
-		color: hsl(224, 23%, 55%);
 		background-color: white;
 	}
 
@@ -210,14 +231,22 @@ body {
 		font-size: inherit;
 	}
 
-	.content button:nth-of-type(1) {
+	button:nth-of-type(1) a {
+		text-decoration: solid;
 		color: white;
+	}
+
+	button:nth-of-type(2) a {
+		text-decoration: solid;
+		color: hsl(224, 23%, 55%);
+	}
+
+	.content button:nth-of-type(1) {
 		background-color: hsl(245, 75%, 52%);
 		box-shadow: hsl(225, 100%, 94%) 0px 15px 10px;
 	}
 
 	.content button:nth-of-type(2) {
-		color: hsl(224, 23%, 55%);
 		background-color: white;
 	}
 
@@ -316,14 +345,22 @@ body {
 		font-size: inherit;
 	}
 
-	.content button:nth-of-type(1) {
+	button:nth-of-type(1) a {
+		text-decoration: solid;
 		color: white;
+	}
+
+	button:nth-of-type(2) a {
+		text-decoration: solid;
+		color: hsl(224, 23%, 55%);
+	}
+
+	.content button:nth-of-type(1) {
 		background-color: hsl(245, 75%, 52%);
 		box-shadow: hsl(225, 100%, 94%) 0px 15px 10px;
 	}
 
 	.content button:nth-of-type(2) {
-		color: hsl(224, 23%, 55%);
 		background-color: white;
 	}
 
@@ -422,14 +459,22 @@ body {
 		font-size: inherit;
 	}
 
-	.content button:nth-of-type(1) {
+	button:nth-of-type(1) a {
+		text-decoration: solid;
 		color: white;
+	}
+
+	button:nth-of-type(2) a {
+		text-decoration: solid;
+		color: hsl(224, 23%, 55%);
+	}
+
+	.content button:nth-of-type(1) {
 		background-color: hsl(245, 75%, 52%);
 		box-shadow: hsl(225, 100%, 94%) 0px 15px 10px;
 	}
 
 	.content button:nth-of-type(2) {
-		color: hsl(224, 23%, 55%);
 		background-color: white;
 	}
 
@@ -528,14 +573,22 @@ body {
 		font-size: inherit;
 	}
 
-	.content button:nth-of-type(1) {
+	button:nth-of-type(1) a {
+		text-decoration: solid;
 		color: white;
+	}
+
+	button:nth-of-type(2) a {
+		text-decoration: solid;
+		color: hsl(224, 23%, 55%);
+	}
+
+	.content button:nth-of-type(1) {
 		background-color: hsl(245, 75%, 52%);
 		box-shadow: hsl(225, 100%, 94%) 0px 15px 10px;
 	}
 
 	.content button:nth-of-type(2) {
-		color: hsl(224, 23%, 55%);
 		background-color: white;
 	}
 
@@ -634,14 +687,22 @@ body {
 		font-size: inherit;
 	}
 
-	.content button:nth-of-type(1) {
+	button:nth-of-type(1) a {
+		text-decoration: solid;
 		color: white;
+	}
+
+	button:nth-of-type(2) a {
+		text-decoration: solid;
+		color: hsl(224, 23%, 55%);
+	}
+
+	.content button:nth-of-type(1) {
 		background-color: hsl(245, 75%, 52%);
 		box-shadow: hsl(225, 100%, 94%) 0px 15px 10px;
 	}
 
 	.content button:nth-of-type(2) {
-		color: hsl(224, 23%, 55%);
 		background-color: white;
 	}
 
