@@ -27,7 +27,7 @@ body {
 	color: hsl(223, 47%, 23%);
 }
 
-@media screen and (max-width: 1450.98px) {
+@media screen and (max-width: 2000.98px) {
 	body {
 		background-image: url("./images/pattern-background-desktop.svg");
 		background-color: hsl(225, 100%, 94%);
